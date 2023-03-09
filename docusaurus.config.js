@@ -10,7 +10,7 @@ const projectName = "notes";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Christoffer\'s tech notes',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Various notes about tech stuff',
   favicon: '../img/favicon.ico',
 
   // Set the production url of your site here

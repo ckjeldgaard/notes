@@ -11,7 +11,7 @@ const projectName = "notes";
 const config = {
   title: 'Christoffer\'s tech notes',
   tagline: 'Various notes about tech stuff',
-  favicon: '../img/favicon.ico',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: `https://${organizationName}.github.io`,
@@ -57,12 +57,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: '../img/docusaurus-social-card.jpg',
+      image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Christoffer\'s tech notes',
         logo: {
           alt: 'My Site Logo',
-          src: '../img/logo.svg',
+          src: 'img/logo.svg',
         },
         items: [],
       },

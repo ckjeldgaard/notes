@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Christoffer's tech notes
 
 Welcome to my personal notes on tech and programming! This web-based collection serves as a repository of my insights and learnings from various experiences in the world of technology. As a technology enthusiast and a programming hobbyist, I have been accumulating information about the latest trends, tips, and tricks in the tech world. These notes contain my personal reflections, observations, and opinions about programming languages, web development, software engineering, and other related topics.

@@ -42,4 +42,6 @@ Summary:
   - Cloud Spanner
 - Latency top priority - and cost close second **(For latency recommend: Cloud Trace, Cloud Profiler. Don't recommend Cloud Monitoring, Web Security Scanner)**
 
-**Note:** For compliance: Compliance Report Manager
+:::tip Note
+For compliance: Compliance Report Manager
+:::

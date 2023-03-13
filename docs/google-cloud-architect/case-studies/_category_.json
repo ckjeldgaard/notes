@@ -1,3 +1,7 @@
 {
   "label": "Case Studies",
+  "link": {
+    "type": "generated-index",
+    "description": "Case studies for the Google Cloud Certified Professional Cloud Architect certification"
+  }
 }

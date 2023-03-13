@@ -1,18 +1,23 @@
+---
+sidebar_position: 3
+---
+
 # Mountkirk Games
 
-- Makes online multiplayer games
+- Makes online multiplayer games for mobile platforms
 - Expanding to other platforms. Is on GCP
 
 ## Concerns
 
 - New multiplayer game on GKE
-- Use global load balancer
-- Global leader board
+- Use global load balancer to keep latency down
+- Global real-time leader board (rely on streaming data)
 - Use _Cloud Spanner_ as database
 
 ## Existing
 
 5 games on GCP
+Some legacy games
 
 **Recommended for GDPR: Cloud EKM (External Key Manager), Cloud DLP (Data Loss Prevention)**
 
@@ -27,13 +32,13 @@
 
 ## Technical requirements
 
-- Scale
+- Scale based on game activity
 - Leaderboard (streaming data)
 - Logs in structured files (Dataflow for analysis)
-- Use GPU **(Spot VM's with GPU node pools)**
+- Use GPU processing to render graphics server-side **(Spot VM's with GPU node pools)**
 - Eventually migrate legacy games to new platform
 
-Summary:
+## Summary
 
 - Other gaming platforms + other regions
 - Tech:

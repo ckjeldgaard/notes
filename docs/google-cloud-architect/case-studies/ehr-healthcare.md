@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # EHR Healthcare
 
 Electronic Health Records
@@ -14,26 +18,26 @@ Electronic Health Records
 - Multiple co-locations. One to expire
 - Web-based
 - Kubernetes containers (MySQL, MSSQL, Redis, MongoDB)
-- Legacy integrations with insurance on-premise
+- Legacy integrations with insurance on-premise (to be replaced)
 - Users managed with Microsoft AD
 
 ## Business requirements
 
-- Onboard new insurance ASAP
+- Onboard new insurance providers ASAP
 - Minimum 99.9 % availability (SLA)
 - Centralized visibility **(logging, monitoring)**
 - Insights to healthcare trends (most likely AI + BigQuery)
 - Reduce latency
 - Maintain compliance
-- Decrease costs
-- Make predictions
+- Decrease infrastructure administration costs
+- Make predictions (AI/ML)
 
 ## Technical requirements
 
-- Maintain latency interfaces (Anthos!)
+- Maintain latency interfaces (answer: Anthos!)
 - Managed containers (Kubernetes, K8S Anthos)
 - Secure connection
-- Consistent logging
+- Consistent logging, monitoring and alerting
 - Ingest data from new providers (Dataproc or Dataflow)
 
 ## Summary

@@ -20,7 +20,7 @@ sidebar_position: 2
 - Already in a cloud
 - Object storage
 - VM video encode/transcode at the racetracks
-- Running predictions using TensorFlow on other VM'sin the cloud
+- Running predictions using TensorFlow on other VMs in the cloud (moving forward, use **TensorFlow Extended** and **Vertex AI Workbench** notebooks as they support TensorFlow)
 
 ## Business requirements
 
@@ -30,6 +30,7 @@ sidebar_position: 2
 - Increase concurrent viewers
 - Ensure compliance
 - Merchandise (some e-commerce app or connection to one)
+- Minimize operational complexity (use **Storage Transfer Service** to move content on GCP in a cost-effective manner)
 
 ## Technical requirements
 
@@ -41,6 +42,6 @@ sidebar_position: 2
 
 ## Summary
 
-- Predictions with AI and ML
+- Predictions with AI and ML. Use **Natural Language API** to measure fan engagement
 - Extending reach and market
 - Lots of data in near-real time

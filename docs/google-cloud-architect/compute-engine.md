@@ -7,6 +7,8 @@ Disks:
 - Local SSD
 - Cloud Storage buckets
 
+Committed use discount can be purchased for VMs.
+
 ## Persistent disk
 
 - Default

@@ -57,6 +57,8 @@ Distributes user network requests among a pool of instances
   - **Regional:** _b._ Create instance group from template
 - Instance group is **regional** - not global
 
+Sole-tenant VMs support BYOL situations.
+
 ## Health checks
 
 - Auto-healing

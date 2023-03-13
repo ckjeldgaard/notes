@@ -34,7 +34,7 @@ Some legacy games
 
 - Scale based on game activity
 - Leaderboard (streaming data)
-- Logs in structured files (Dataflow for analysis)
+- Logs in structured files (Dataflow for analysis) **(for game activity logs: Create logging sink and sets BigQuery as the destination)**
 - Use GPU processing to render graphics server-side **(Spot VM's with GPU node pools)**
 - Eventually migrate legacy games to new platform
 
@@ -44,9 +44,17 @@ Some legacy games
 - Tech:
   - Kubernetes
   - Load balancer
-  - Cloud Spanner
+  - Cloud Spanner **(one three-continent multi-region instance)**
 - Latency top priority - and cost close second **(For latency recommend: Cloud Trace, Cloud Profiler. Don't recommend Cloud Monitoring, Web Security Scanner)**
 
 :::tip Note
-For compliance: Compliance Report Manager
+For compliance: **Organization Policy Service**
 :::
+
+### CI/CD
+
+For CI/CD pipeline recommend:
+
+- Artifact Registry
+- Cloud Build
+- Kubernetes Engine

@@ -21,6 +21,14 @@ Exam tests deployment process
 - **Horizontal Pod Autoscaler (HPA)** checks workload metrics against thresholds
 - Use **Workload Identity** to connect clusters to other Google services.
 
+:::tip To change the machine type in a cluster
+Create a new node pool in the cluster with the desired machine type and then migrate the workload to the new node pool.
+:::
+
+To perform rolling updates:
+
+Execute the command `'kubectl set image deployment/<OLD_DEPLOYMENT> <NEW_DEPLOYMENT>'` 
+
 ## Terminology
 
 - **Node:** VM's containers are hosted on

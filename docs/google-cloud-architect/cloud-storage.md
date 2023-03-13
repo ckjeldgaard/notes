@@ -65,6 +65,10 @@ By default, GCP encrypts all data.
 
 Customer can manage own keys - then using `.boto` config file
 
+:::tip Security marks
+Add security marks to any Cloud Storage buckets to identify buckets outside of policy. Security marks are only visible through the Cloud Security Command Center which would keep the information classified and actionable. 
+:::
+
 ## Object versioning
 
 - Retrieve older versions of objects

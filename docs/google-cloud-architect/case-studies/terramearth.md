@@ -37,3 +37,7 @@ sidebar_position: 4
 - Customer and partner support
 - Expand global integration
 - Transmit and analyse data
+
+## Exam
+
+- To protect customers' personally identifiable information (PII) like credit cards: Use **Cloud Data Loss Prevention (DLP)**

@@ -11,6 +11,7 @@ Committed use discount can be purchased for VMs.
 
 ## Persistent disk
 
+- Very flexible and powerful - less physical constraints - **Modular!**
 - Default
 - Array of multiple disks (not a physical disk, but exists in the network)
 - Modular

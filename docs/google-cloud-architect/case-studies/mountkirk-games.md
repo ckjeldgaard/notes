@@ -58,3 +58,7 @@ For CI/CD pipeline recommend:
 - Artifact Registry
 - Cloud Build
 - Kubernetes Engine
+
+## Exam
+
+- Security best practices: Use native logging + ensure privileged containers aren't being run

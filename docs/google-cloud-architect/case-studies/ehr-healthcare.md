@@ -53,3 +53,4 @@ Electronic Health Records
 - Use **API** for legacy data interface for insurance providers
 - Migrate MSSQL -> Cloud Spanner
 - Migrate legacy API's in containers -> Migrate for Anthos and GKE
+- Move on-prem website to GCE + Cloud Armor and HTTP(S) load balancer to address DDoS issues

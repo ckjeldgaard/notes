@@ -2,9 +2,14 @@
 
 Virtual version of a physical network.
 
+Software-Defined Network (SDN)
+
 :::tip Note
-VPC is **global**, but the subnets are **regional**.
+VPC is **global**, but the subnets are **regional**. Can have single subnet span multiple zones.
 :::
+
+- VPC can have both _external_ and _internal_ IP addresses
+- Hybrid networking with on-premises networks with interconnect options
 
 ## Firewall
 

@@ -54,3 +54,4 @@ Electronic Health Records
 - Migrate MSSQL -> Cloud Spanner
 - Migrate legacy API's in containers -> Migrate for Anthos and GKE
 - Move on-prem website to GCE + Cloud Armor and HTTP(S) load balancer to address DDoS issues
+- In order to ensure personal data doesn't leave a certain region in Cloud Storage: Use **Virtual Private Network Service Controls**, and create a **service perimeter** around the Cloud Storage resources. 

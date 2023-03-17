@@ -69,6 +69,12 @@ Customer can manage own keys - then using `.boto` config file
 Add security marks to any Cloud Storage buckets to identify buckets outside of policy. Security marks are only visible through the Cloud Security Command Center which would keep the information classified and actionable. 
 :::
 
+## Bucket locations
+
+- **Region**: a specific geographic place, such as São Paulo.
+- **Dual-region** : a specific pair of regions, such as Tokyo and Osaka.
+- **Multi-region**: a large geographic area, such as the United States, that contains two or more geographic places.
+
 ## Object versioning
 
 - Retrieve older versions of objects

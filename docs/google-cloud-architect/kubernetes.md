@@ -61,6 +61,9 @@ Execute the command `'kubectl set image deployment/<OLD_DEPLOYMENT> <NEW_DEPLOYM
   - Support canary and blue-green deployments.
   - Load balancing
   - Monitoring, logging and trace
+- Can simulate fault injections like:
+  - **Network latency**
+  - **HTTP error codes**
 
 ### Anthos GKE connection
 

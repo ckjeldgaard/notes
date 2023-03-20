@@ -1,3 +1,5 @@
+import LoadBalancerDiagram from '../../static/img/load-balancers.drawio.svg';
+
 # Load balancing & instance groups
 
 ## Load balancer
@@ -5,6 +7,10 @@
 Distributes user network requests among a pool of instances
 
 > Single **frontend** access = Multiple **backend** targets
+
+## Example
+
+<LoadBalancerDiagram />
 
 ### Load balancer types
 

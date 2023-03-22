@@ -1,0 +1,8 @@
+{
+  "label": "Google Kubernetes Engine (GKE)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Notes on Google Kubernetes Engine (GKE)"
+  }
+}
